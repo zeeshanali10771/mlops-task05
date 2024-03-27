@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: left;
+    color: #ba6913;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ba6913;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #ba6913;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding:10px;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 9%;
+}
+
+button:hover {
+    background-color: #cbac24;
+}
